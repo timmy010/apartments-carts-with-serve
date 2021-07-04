@@ -1,13 +1,12 @@
-@import '~normalize.css';
+@import "~normalize.css";
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  max-width: 360px;
-  background: #E5E5E5;
-  font-family: 'Noto Sans';
+  background: #e5e5e5;
+  font-family: "Noto Sans";
 }
 
 button {
@@ -29,7 +28,7 @@ button:hover {
   height: 123px;
   top: 0;
   left: 0;
-  background: #FFB000;
+  background: #ffb000;
   border-radius: 0px 0px 8px 8px;
   transition: height 0.3s;
 }
@@ -46,7 +45,7 @@ button:hover {
 
 .title {
   text-align: center;
-  font-family: 'Mukta';
+  font-family: "Mukta";
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
@@ -66,17 +65,9 @@ button:hover {
   left: 23px;
   width: 13px;
   height: 14px;
-  background-image: url('../assets/img/back-btn.svg');
+  background-image: url("../assets/img/back-btn.svg");
   background-size: 13px 14px;
   background-position: center;
-}
-
-.container {
-  position: relative;
-  width: 100%;
-  padding: 0 24px;
-  z-index: 888;
-  margin-top: 50px;
 }
 
 .content {

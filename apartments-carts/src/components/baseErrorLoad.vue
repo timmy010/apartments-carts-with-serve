@@ -1,7 +1,6 @@
 <template>
   <div class="error-loader">
-    <p class="error-loader__text">Произошла ошибка при загрузке</p>
-    <button class="error-loader__button" @click="$emit('loadSmth')">Попробовать еще раз</button>
+    <p class="error-loader__text">Произошла ошибка при загрузки. Пожалуйста, перезагрузите страницу</p>
   </div>
 </template>
 

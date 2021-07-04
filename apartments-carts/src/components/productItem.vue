@@ -72,4 +72,10 @@ export default {
     margin: 10px 10px;
   }
 }
+@media (max-width: 320px) {
+  .catalog__item,
+  .catalog__item-img {
+    border-radius: 0;
+  }
+}
 </style>
